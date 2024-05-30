@@ -198,6 +198,7 @@ This design ensures that the application is highly available, scalable, and secu
 
 ## File strcture in the project
 
+```
 aws-cdk-three-tier-app-infra/
 │
 ├── bin/
@@ -219,7 +220,7 @@ aws-cdk-three-tier-app-infra/
 ├── README.md
 ├── tsconfig.json
 └── .gitignore
-
+```
 
 Here's a quick explanation of the AWS CDK files and directories as per the above tree structure:
 
