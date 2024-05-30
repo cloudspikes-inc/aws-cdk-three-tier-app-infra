@@ -1,2 +1,14 @@
-# aws-cdk-three-tier-app-infra
-Idea is to create a three-tier application with AWS CDK using TypeScript involves defining resources for the presentation, application, and data tiers.
+# Welcome to your CDK TypeScript project
+
+This is a Mock project for CDK development with TypeScript. Idea is to create a three-tier application with AWS CDK using TypeScript involves defining resources for the presentation, application, and data tiers.
+
+The `cdk.json` file tells the CDK Toolkit how to execute your app.
+
+## Useful commands
+
+* `npm run build`   compile typescript to js
+* `npm run watch`   watch for changes and compile
+* `npm run test`    perform the jest unit tests
+* `npx cdk deploy`  deploy this stack to your default AWS account/region
+* `npx cdk diff`    compare deployed stack with current state
+* `npx cdk synth`   emits the synthesized CloudFormation template
