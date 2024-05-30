@@ -1,5 +1,9 @@
 ## An over on AWS CDK with TypeScript
 
+![AWS CDK](https://img.shields.io/badge/AWS%20CDK-v2.0.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-v4.3.5-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 The AWS Cloud Development Kit (CDK) is a framework for defining cloud infrastructure using programming languages. With AWS CDK, you can model and provision cloud resources using familiar programming languages like TypeScript, which provides several benefits over traditional template-based approaches like AWS CloudFormation. Here's an overview of AWS CDK with TypeScript:
 
 ### 1. **Introduction to AWS CDK**
