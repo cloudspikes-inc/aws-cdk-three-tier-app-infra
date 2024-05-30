@@ -1,4 +1,8 @@
-# Welcome to your CDK TypeScript project
+# AWS CDK with TypeScript Project
+
+![AWS CDK](https://img.shields.io/badge/AWS%20CDK-v2.0.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-v4.3.5-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 This is a Mock project for CDK development with TypeScript. Idea is to create a three-tier application with AWS CDK using TypeScript involves defining resources for the presentation, application, and data tiers.
 
