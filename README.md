@@ -19,31 +19,44 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 
 
 ## A few more useful commands
+
 npm install -g aws-cdk
+
 cdk init app --language typescript
+
 npm install @aws-cdk/aws-s3 @aws-cdk/aws-ec2 @aws-cdk/aws-rds @aws-cdk/aws-ecs @aws-cdk/aws-ecs-patterns
 
 
 cdk synth
+
 cdk bootstrap aws://615311846444/us-east-1
+
 cdk diff (terraform plan equivalent)
+
 cdk list
+
 cdk deploy --all --require-approval never --profile default
+
 cdk destroy '*' --force
 
 
 
 rm -rf cdk.out
+
 cdk synth
 
 
 rm -rf node_modules
+
 npm install
+
 npm run build
+
 npm run test
 
 
 aws sts get-session-token --duration-seconds 3600
+
 aws sts get-session-token --duration-seconds 129600
 
 Response: 
@@ -58,14 +71,22 @@ Response:
 
 
 aws configure set aws_access_key_id ASI...
+
 aws configure set aws_secret_access_key L5TB...
+
 aws configure set region us-east-1
+
 aws configure set aws_session_token IQo...
 
+
 export AWS_ACCESS_KEY_ID=ASI...
+
 export AWS_SECRET_ACCESS_KEY=L5T...
+
 export AWS_REGION=us-east-1
+
 export AWS_SESSION_TOKEN=IQo...
+
 
 
 ## Workflow design
